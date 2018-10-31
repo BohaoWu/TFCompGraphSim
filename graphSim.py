@@ -31,8 +31,10 @@ class GraphSim():
   def __init__(self):
     # self.logic_time = 0
     # Node number in nodeInfo is a bit fewer than nodeCon
-
-    self.metadata_dir = "./inception3_115_k40/"
+    
+    self.metadata_dir = input("Please input directory of data")
+    if self.metadata_dir == null:
+      self.metadata_dir = "./inception3_115_k40/"
 
     self.nodeInfo_filename = "gpu_0_nodetime.txt"  # Initiate node execution time
     # self.nodeCon_filename = "1.log"
