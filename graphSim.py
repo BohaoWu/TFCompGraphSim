@@ -67,7 +67,7 @@ class GraphSim():
     self.mem_usage = []
 
     self.mem_limit = 5.5 * (1 << 10)
-    self.pcie_bandwidth = 12 * (1 << 10)
+    self.pcie_bandwidth = 16 * (1 << 10)
 
     self.time_metric = 1000000
 
